@@ -43,7 +43,7 @@ def customCallback(client, userdata, message):
 
 def publishBedSideMonitorData(loopCount):
     message = {}
-    message['deviceid'] = 'BSM_G101'
+    message['deviceid'] = 'BSM_G_101'
     try:
         if loopCount % PublishFreqTemperature == 0:
             value = float(random.normalvariate(99, 1.5))

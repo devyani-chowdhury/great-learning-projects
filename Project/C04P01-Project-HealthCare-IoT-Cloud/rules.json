@@ -1,0 +1,14 @@
+[
+    {
+        "type": "HeartRate", 
+        "avg_min": 55, 
+        "avg_max": 105,
+        "trigger_count": 5
+    },
+    {
+        "type": "Temperature", 
+        "avg_min": 98, 
+        "avg_max": 102,
+        "trigger_count": 3
+    }
+]
